@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flattern - Flat and trendy bootstrap site template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Theme skin -->
+  <link href="skins/default.css" rel="stylesheet" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
+
+  <!-- =======================================================
+    Theme Name: Flattern
+    Theme URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- toggle top area -->
+    <div class="hidden-top">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+             <li><strong>nous sommes toujours prêts pour répondre à vos Questions </strong></li>
+              <li>visitez notre centre à Rabat El Irfane 45 avenue HassanII </li>
+              <li>appelez  <i class="icon-phone"></i> 0610975453 OU 0649448971</li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <!-- hidden top area toggle link -->
+        <div id="header-hidden-link">
+         <a href="#" class="toggle-link" title="Cliquer pour avoir une surprise " data-target=".hidden-top"><i></i>Open</a>
+        </div>
+        <!-- end toggle link -->
+        <div class="row nomargin">
+          <div class="span12">
+            <div class="headnav">
+              <ul>
+               <!--  <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
+                <li><a href="#mySignin" data-toggle="modal">Sign in</a></li> -->
+              </ul>
+            </div>
+            <!-- Signup Modal -->
+            <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword2" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign up</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signup modal -->
+            <!-- Sign in Modal -->
+            <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputText">Username</label>
+                    <div class="controls">
+                      <input type="text" id="inputText" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSigninPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSigninPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign in</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signin modal -->
+            <!-- Reset Modal -->
+            <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputResetEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputResetEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Reset password</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      We will send instructions on how to reset your password to your inbox
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end reset modal -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="span4">
+            <div class="logo">
+              <!-- <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+              <h1>Flat and trendy bootstrap template</h1 -->>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="dropdown">
+                      <a href="index.html">Accueil <//i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+              
+                        
+                      </ul>
+                    </li>
+                   <!--  <li class="dropdown"> -->
+                    <!--   <a href="#">Features <i class="icon-angle-down"></i></a> -->
+                      <ul class="dropdown-menu">
+                        <li><a href="typography.html">Typography</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="components.html">Components</a></li>
+                        <li><a href="animations.html">56 Animations</a></li>
+                        <li><a href="icons.html">Icons</a></li>
+                        <li><a href="icon-variations.html">Icon variations</a></li>
+                        <li class="dropdown"><a href="#">3 Sliders <i class="icon-angle-right"></i></a>
+                          <ul class="dropdown-menu sub-menu-level1">
+                            <li><a href="index.html">Nivo slider</a></li>
+                            <li><a href="index-alt2.html">Slit slider</a></li>
+                            <li><a href="index-alt3.html">Parallax slider</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">A propos <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="about.html"> Qui sommes-nous ? </a></li>
+                        <li><a href="pricingbox.html">Atlas Maroc</a></li>
+                       <!--  <li><a href="testimonials.html">Testimonials</a></li> -->
+                       <!--  -->
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Atlas <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="portfolio-2cols.html">Région Dakhla Ouadi Dahab</a></li>
+                        <li><a href="portfolio-3cols.html"> Région Guelmim Oued Noun</a></li>
+                        <li><a href="portfolio-4cols.html">Région Fès Meknes</a></li>
+                        <li><a href="portfolio-detail.html">Région Marrakech Safi</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <!-- <a href="#">Blog <i class="icon-angle-down"></i></a> -->
+                      <ul class="dropdown-menu">
+                       <!--  <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li> -->
+                       <!--  <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
+                        <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
+                        <li><a href="post-right-sidebar.html">Post right sidebar</a></li> -->
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <section id="inner-headline">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <div class="inner-heading">
+              <h2>Région <strong>Guelmim Oued Noun</strong></h2>
+            </div>
+          </div>
+          <div class="span8">
+            <ul class="breadcrumb">
+              <!-- <li><a href="#"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+              <li><a href="#">Portfolio</a><i class="icon-angle-right"></i></li>
+              <li class="active">Portfolio 2 columns</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <ul class="portfolio-categ filter">
+             <!--  <li class="all active"><a href="#">Région Dakhla Ouadi Dahab</a></li>
+              <li class="web"><a href="#" title="">Web design</a></li>
+              <li class="icon"><a href="#" title="">Icons</a></li>
+              <li class="graphic"><a href="#" title="">Graphic design</a></li> -->
+            </ul>
+            <div class="clearfix">
+            </div>
+            <div class="row">
+              <section id="projects">
+                <ul id="thumbs" class="portfolio">
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span6 design" data-id="id-0" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery"  
+                   <title>regionguelmim</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map40 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map40'></div>
+
+<script type="text/javascript" src="js/SANTEGUELM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map40 = L.map('map40').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map40);
+
+ L.marker([28.430053, -10.041504]).addTo(map40)
+    .bindPopup('province Guelmim')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map40);
+    }
+
+    map40.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return p > 3618 ? '#800026' :
+        p > 2135 ? '#BD0026' :
+        p > 1989 ? '#E31A1C' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.SANTE)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map40.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map40); 
+
+var info = L.control();
+
+info.onAdd = function (map40) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Nombre d habitants par medecin-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.SANTE : 'Maroc');
+};
+
+info.addTo(map40);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map40) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [1989,2135,3618],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map40);
+  var geojson = L.geoJson( santeguelmim, {
+    style: stylefeature,
+  }).addTo(map40);
+</script>
+
+                     
+            <!-- <span class="overlay-img"></span> -->
+            <span class="overlay-img-thumb font-icon-plus"></span>
+            </a>
+                    <!-- Thumb Image and Description -->
+                  
+                    <img src="img/works/thumbs/MEDECIN.jpg" >
+                   <title>regionguelmim</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map40 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map40'></div>
+
+<script type="text/javascript" src="js/SANTEGUELM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map40 = L.map('map40').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map40);
+
+ L.marker([28.430053, -10.041504]).addTo(map40)
+    .bindPopup('province Guelmim')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map40);
+    }
+
+    map40.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return p > 3618 ? '#800026' :
+        p > 2135 ? '#BD0026' :
+        p > 1989 ? '#E31A1C' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.SANTE)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map40.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map40); 
+
+var info = L.control();
+
+info.onAdd = function (map40) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Nombre d habitants par medecin-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.SANTE : 'Maroc');
+};
+
+info.addTo(map40);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map40) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [1989,2135,3618],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map40);
+  var geojson = L.geoJson( santeguelmim, {
+    style: stylefeature,
+  }).addTo(map40);
+
+</script>
+
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span6 design" data-id="id-1" data-type="icon">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+
+                    <title>regionguelmim</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map41 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map41'></div>
+
+<script type="text/javascript" src="js/PAUV GUELMIM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map41 = L.map('map41').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map41);
+
+ L.marker([28.430053, -10.041504]).addTo(map41)
+    .bindPopup('province Guelmim')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map41);
+    }
+
+    map41.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return p > 5.42 ? '#AEB404' :
+        p > 5.12 ? '#FFFF00' :
+        p > 5 ? '#F3F781' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.PAUVRETE)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map41.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map41); 
+
+var info = L.control();
+
+info.onAdd = function (map41) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Taux de pauvreté-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.PAUVRETE : 'Maroc');
+};
+
+info.addTo(map41);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map41) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [5 ,5.12,5.42],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map41);
+  var geojson = L.geoJson( pauvGuelmim, {
+    style: stylefeature,
+  }).addTo(map41);
+
+
+</script>
+            <!-- <span class="overlay-img"></span> -->
+            <span class="overlay-img-thumb font-icon-plus"></span>
+            </a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/POV.jpg"
+                 <title>regionguelmim</title>
+  
+  
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map41 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map41'></div>
+
+<script type="text/javascript" src="js/PAUV GUELMIM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map41 = L.map('map41').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map41);
+
+ L.marker([28.430053, -10.041504]).addTo(map41)
+    .bindPopup('province Guelmim')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map41);
+    }
+
+    map41.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return p > 5.42 ? '#AEB404' :
+        p > 5.12 ? '#FFFF00' :
+        p > 5 ? '#F3F781' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.PAUVRETE)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map41.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map41); 
+
+var info = L.control();
+
+info.onAdd = function (map41) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Taux de pauvreté-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.PAUVRETE : 'Maroc');
+};
+
+info.addTo(map41);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map41) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [5 ,5.12,5.42],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map41);
+  var geojson = L.geoJson( pauvGuelmim, {
+    style: stylefeature,
+  }).addTo(map41);
+
+
+</script>
+
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span6 photography" data-id="id-2" data-type="graphic">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" 
+
+<title>RégionGuelmim</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map44 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map44'></div>
+
+<script type="text/javascript" src="js/EDUCATIONGUELMIM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map44 = L.map('map44').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map44);
+
+ L.marker([28.430053, -10.041504]).addTo(map44)
+    .bindPopup('province Guelmim')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map44);
+    }
+
+    map44.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return p >0.54 ? '#610B5E' :
+        p > 0.5 ? '#A901DB' :
+        p > 0.45 ? '#BE81F7' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.EDU)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map44.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map44); 
+
+var info = L.control();
+
+info.onAdd = function (map44) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Indice de Gini de l éducation-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.EDU : 'Maroc');
+};
+
+info.addTo(map44);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map44) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0.45,0.5,0.54],
+        labels = [];
+
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map44);
+  var geojson = L.geoJson( EDUCAguelmim, {
+    style: stylefeature,
+  }).addTo(map44);
+
+
+</script>
+
+               
+            
+            <!-- <span class="overlay-img"></span> -->
+            <span class="overlay-img-thumb font-icon-plus"></span>
+            </a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/EDU.jpg"
+                   <title>RégionGuelmim</title>
+  
+ 
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map44 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map44'></div>
+
+<script type="text/javascript" src="js/EDUCATIONGUELMIM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map44 = L.map('map44').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map44);
+
+ L.marker([28.430053, -10.041504]).addTo(map44)
+    .bindPopup('province Guelmim')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map44);
+    }
+
+    map44.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return p >0.54 ? '#610B5E' :
+        p > 0.5 ? '#A901DB' :
+        p > 0.45 ? '#BE81F7' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.EDU)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map44.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map44); 
+
+var info = L.control();
+
+info.onAdd = function (map44) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Indice de Gini de l éducation-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.EDU : 'Maroc');
+};
+
+info.addTo(map44);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map44) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0.45,0.5,0.54],
+        labels = [];
+
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map44);
+  var geojson = L.geoJson( EDUCAguelmim, {
+    style: stylefeature,
+  }).addTo(map44);
+
+
+</script> 
+
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span6 design" data-id="id-0" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" 
+<title>Région Guelmim</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map45 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map45'></div>
+
+<script type="text/javascript" src="js/VIEGUELMIM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map45 = L.map('map45').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map45);
+
+ L.marker([28.430053, -10.041504]).addTo(map45)
+    .bindPopup('Province Guelmim.')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map45);
+    }
+
+    map45.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return  p > 3.47   ? '#2407DC' :
+                p > 1.61  ? '#3483A1' : 
+                p > 1.50  ? '#09B0EF' :
+        //p == 115691 ? '#E31A1C' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.VIE)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map45.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map45); 
+
+var info = L.control();
+
+info.onAdd = function (map45) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Qualité de vie-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.VIE : 'Maroc');
+};
+
+info.addTo(map45);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map45) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [1.5,1.61,3.47],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map45);
+  var geojson = L.geoJson( VIEguelmim, {
+    style: stylefeature,
+  }).addTo(map45);
+
+</script>
+
+                   <!-- 
+            <span class="overlay-img"></span> -->
+            <span class="overlay-img-thumb font-icon-plus"></span>
+            </a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/QUALITEVIE.jpg"
+
+<title>Région Guelmim</title>
+  
+  
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+
+  <style>
+    #map45 {
+      width: 600px;
+      height: 400px;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+  </style>
+
+  
+</head>
+<body>
+
+<div id='map45'></div>
+
+<script type="text/javascript" src="js/VIEGUELMIM.js"></script>
+
+<script type="text/javascript">
+
+
+   var map45 = L.map('map45').setView([28.430053, -10.041504], 6);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map45);
+
+ L.marker([28.430053, -10.041504]).addTo(map45)
+    .bindPopup('Province Guelmim.')
+    .openPopup();
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("coordonnées : " + e.latlng.toString())
+            .openOn(map45);
+    }
+
+    map45.on('click', onMapClick);
+
+  // get color depending on population density value
+  function getColor(p) {
+    return  p > 3.47   ? '#2407DC' :
+                p > 1.61  ? '#3483A1' : 
+                p > 1.50  ? '#09B0EF' :
+        //p == 115691 ? '#E31A1C' :
+         //p == 44124  ? '#FC4E2A' :
+        // p > 50   ? '#FD8D3C' :
+        // p > 20   ? '#FEB24C' :
+        // p > 10   ? '#FED976' :
+              '#FFEDA0';
+  }
+
+  function stylefeature(feature) {
+    return {
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7,
+      fillColor: getColor(feature.properties.VIE)
+    };
+  }
+    var geojson
+
+    function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+        info.update(layer.feature.properties);
+    }
+}
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+function zoomToFeature(e) {
+    map45.fitBounds(e.target.getBounds());
+}
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+// echelle graphique
+L.control.scale( ).addTo(map45); 
+
+var info = L.control();
+
+info.onAdd = function (map45) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (properties) {
+    this._div.innerHTML = '<h3>Qualité de vie-Guelmim Oued Noun</h3>' +  (properties ?
+        '<b>' + properties.NAME + '</b><br />' + properties.VIE : 'Maroc');
+};
+
+info.addTo(map45);
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map45) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [1.5,1.61,3.47],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map45);
+  var geojson = L.geoJson( VIEguelmim, {
+    style: stylefeature,
+  }).addTo(map45);
+
+</script>
+                   
+                  <!-- </li> -->
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+<!--                   <li class="item-thumbs span6 photography" data-id="id-4" data-type="web">
+ -->                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+  <!--                   <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/full/image-05-full.jpg">
+            <span class="overlay-img"></span>
+            <span class="overlay-img-thumb font-icon-plus"></span>
+            </a>
+       -->              <!-- Thumb Image and Description -->
+                   <!--  <img src="img/works/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                  < -->/li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+<!--                   <li class="item-thumbs span6 photography" data-id="id-5" data-type="icon">
+ -->                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+<!--                     <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/full/image-06-full.jpg">
+            <span class="overlay-img"></span>
+            <span class="overlay-img-thumb font-icon-plus"></span>
+            </a>
+ -->                    <!-- Thumb Image and Description -->
+<!--                     <img src="img/works/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+ -->                <!--   </li> -->
+                  <!-- End Item Project -->
+            <!--     </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Browse pages</h5>
+              <ul class="link-list">
+                <li><a href="#">About our company</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Meet our team</a></li>
+                <li><a href="#">Explore our portfolio</a></li>
+                <li><a href="#">Get in touch with us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Important stuff</h5>
+              <ul class="link-list">
+                <li><a href="#">Press release</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Career center</a></li>
+                <li><a href="#">Flattern forum</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Flickr photostream</h5>
+              <div class="flickr_badge">
+                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
+              </div>
+              <div class="clear">
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Get in touch with us</h5>
+              <address>
+                <strong>Flattern studio, Pte Ltd</strong><br>
+                 Springville center X264, Park Ave S.01<br>
+                 Semarang 16425 Indonesia
+              </address>
+              <p>
+                <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+                <i class="icon-envelope-alt"></i> email@domainname.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p>
+                  <span>&copy; Flattern - All right reserved.</span>
+                </p>
+                <div class="credits"> -->
+                  <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
+                  -->
+                 <!--  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+              </div>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a> -->
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
